@@ -1,0 +1,31 @@
+.container {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 46px;
+}
+
+.signIn {
+    width: 102px;
+}
+
+.signUp {
+    width: 110px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
