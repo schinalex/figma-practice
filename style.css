@@ -94,9 +94,53 @@ body{
   color: var(--white);
 }
 
-
-
-
-
-
 /* Header End */
+/* Hero section start */
+.hero__wrapper {
+	display: flex;
+	align-items: center;
+	padding: 56px 0px 110px;
+}
+.hero__title {
+	margin-bottom: 30px;
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 54px;
+}
+.hero__desc {
+	margin-bottom:45px ;
+	max-width: 414px;
+}
+.hero__links {
+	display: flex;
+	gap: 56px;
+}
+.btn-get-start {
+	padding: 15px 40px;
+	border-radius: 4px;
+	color: var(--white);
+	background-color: var(--orange);
+	font-weight: 700;
+}
+.btn-watch-video {
+	color: var(--orange);
+	font-weight: 600;
+	text-decoration-line: underline;
+	position: relative;
+}
+.btn-watch-video::before {
+	content: url(img/Triangle.svg);
+	position: absolute;
+	width: 17px;
+	height: 20px;
+	left: -26px;
+	top: 50%;
+	transform: translateY(-50%);
+	
+
+}
+.hero__img {
+	max-width: 605px;
+	max-height:500px ;
+}
+/* Hero section End */
