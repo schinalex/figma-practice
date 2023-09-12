@@ -1,3 +1,7 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .container {
     margin: 0 auto;
     width: 1400px;
@@ -10,22 +14,56 @@
 
 .header-nav {
     display: flex;
+    font-size: 14px;
+    line-height: 28px;
     align-items: center;
+    margin: 0 0 0 320px;
+    color: #2F281E;
+}
+
+img[alt="logo"]{
+    width: 31.168px;
+    height: 32px;
+    margin:0 11px 0 0;
+}
+
+img[alt="Productly"]{
+    width: 143.117px;
+    height: 28.973px;
+    margin-top: 4px;
 }
 
 button {
     height: 46px;
 }
 
-.signIn {
-    width: 102px;
+.sign {
+    height:46px ;
+    margin: 0 0 0 29px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
-.signUp {
-    width: 110px;
+.In{
+    width: 102px;
+    color:#173A56 ;
 }
+
+.Up{
+    width: 110px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.tab{
+    margin:0 10px 0 0;
 }
