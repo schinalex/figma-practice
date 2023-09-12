@@ -10,6 +10,8 @@
 .header {
     display: flex;
     align-items: center;
+    height: 78px;
+    margin-top: 20px;
 }
 
 .header-nav {
@@ -67,3 +69,56 @@ button {
 .tab{
     margin:0 10px 0 0;
 }
+img[alt="people"]{
+    width: 605px;
+    height: 496px;
+}
+.design_thinking{
+    display: flex;
+}
+ .design_thinking > aside{
+   width: 518px;
+}
+h1{
+    font-size: 44px;
+    color: #2F281E;
+    font-weight: 700;
+}
+p{
+    color:#544837 ;
+    font-size: 18px;
+    width: 458px;
+}
+.get_start{
+    width: 175px;
+    background-color: #F90;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.design_thinking  a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F90;
+    display: flex;
+    height: 53px;
+    align-items: center;
+
+}
+.play{
+    margin-right: 8px;
+}
+.video{
+    display: flex;
+    align-items: center;
+}
+section{
+    margin-top:  30px; 
+    
+
+}
+
+
