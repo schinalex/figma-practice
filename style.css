@@ -4,7 +4,7 @@
 
 .container {
     margin: 0 auto;
-    width: 1400px;
+    width: 1126px;
 }
 
 .header {
@@ -107,8 +107,7 @@ img[alt="people"]{
 }
 section{
     margin-top:  30px; 
-    
-
+    height: 574px;  
 }
 .row{
     display:flex;
@@ -151,3 +150,33 @@ width: 539px;
     font-weight: 700;
     margin-right: 30px;
  }
+
+ .design_professionals {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .design_professionals aside {
+    width: 486px;
+    height: 531px;
+ }
+
+ .design_professionals p{
+    font-size: 16px;
+    font-weight: 500;
+ }
+
+ .design_professionals h2 {
+    font-size: 36px;
+    font-weight: 700;
+ }
+
+ .design_professionals h3 {
+    font-size: 16px;
+    font-weight: 700;
+ }
+
+ .design_professionals img  {
+    width: 519.785px;
+    height: 573.31px;
+}
