@@ -461,7 +461,19 @@ margin-bottom: 12px;
 	max-width: 400px;
 	text-align: center;
 }
-
+	/* 3.  3 Section identic media */
+	.section-img , .managers__img{
+		display: none;
+	}
+	.design__wrapper{
+		display: block;
+	}
+	.section-info{
+		margin:  0 auto;
+	}
+	.section-design{
+		margin: 70px 0px;
+	}
 
 }
 
@@ -495,7 +507,7 @@ margin-bottom: 12px;
 		margin: 0 auto;
 	}
 	.btn-get-start{
-		padding: 10px 25px;
+		margin: 10px 25px;
 	}
 
 /* 3. Section Features media */
@@ -513,5 +525,27 @@ margin-bottom: 12px;
 .features__btn{
 	width: 100%;
 	padding: 10px 15px;
+}
+
+/* 3.  3 Section identic media */
+.section-design{
+	margin: 40px 0px ;
+	text-align: center;
+}
+
+.section-title_big{
+	font-size: 24px;
+	text-align: center;
+}
+.section-title-small{
+ font-size: 18px;
+ 
+}
+.section-text{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.benefit{
+	gap: 10px;
 }
 }
