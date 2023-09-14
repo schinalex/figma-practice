@@ -450,11 +450,24 @@ margin-bottom: 12px;
 		justify-content: center;
 		gap: 40px;
 	}
+
+	/* 3. Section Features media */
+.features__columns{
+	flex-wrap:wrap ;
+	justify-content: space-around;
+	align-self: center;
+}
+.features__column{
+	max-width: 400px;
+	text-align: center;
+}
+
+
 }
 
 @media screen and (max-width: 530px) {
 	/* 1. Section Header media */
-	
+
 	.header__user{
 		display: none;
 	}
@@ -485,5 +498,20 @@ margin-bottom: 12px;
 		padding: 10px 25px;
 	}
 
-
+/* 3. Section Features media */
+.features__title{
+	font-size: 24px;
+	line-height: normal;
+	margin-bottom: 20px;
+}
+ .column__desc{
+ font-size: 14px;
+ }
+ .column__title{
+	font-size: 18px;
+ }
+.features__btn{
+	width: 100%;
+	padding: 10px 15px;
+}
 }
