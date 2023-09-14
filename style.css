@@ -48,6 +48,9 @@ body{
 	--orange:#FF9900;
 	--blue:#173A56;
 }
+.none{
+	display: none;
+}
 /* Header start */
 .header__wrapper,.header__logo,
 .header__nav,.header__user{
@@ -316,3 +319,123 @@ margin-bottom: 12px;
 }
 
 /* Footer section End */
+
+/* Nav Icon */
+.nav-icon-btn {
+	--time: 0.1s;
+	--width: 40px;
+	--height: 30px;
+	--line-height: 1px;
+    --line-margin: 2;
+	--color: #000000;
+
+	height: var(--height);
+	width: var(--width);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-icon {
+	position: relative;
+	width: var(--width);
+	height: var(--line-height);
+	background-color: var(--color);
+}
+
+.nav-icon::before,
+.nav-icon::after {
+	content: '';
+	display: block;
+
+	position: absolute;
+	left: 0;
+
+	width: var(--width);
+	height: var(--line-height);
+
+	background-color: var(--color);
+	transition: transform var(--time) ease-in,
+		top var(--time) linear var(--time);
+}
+
+.nav-icon::before {
+	top: calc(var(--line-height) * -8);
+}
+
+.nav-icon::after {
+	top: calc(var(--line-height) * 8);
+}
+
+.nav-icon.nav-icon--active {
+	background-color: transparent;
+}
+
+.nav-icon.nav-icon--active::before,
+.nav-icon.nav-icon--active::after {
+	top: 0;
+	transition: top var(--time) linear,
+		transform var(--time) ease-in var(--time);
+}
+
+.nav-icon.nav-icon--active::before {
+	transform: rotate(45deg);
+}
+
+.nav-icon.nav-icon--active::after {
+	transform: rotate(-45deg);
+}
+.header-nav__btn{
+	display: none;
+}
+.no-scroll{
+	overflow-y: hidden;
+}
+/* media  */
+@media screen and (max-width: 999px) {
+	
+	.header__wrapper{
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+  .header__nav {
+    display: none;
+
+  }
+	.header-mobile{
+		position: absolute;
+		z-index: 10;
+		background-color: var(--white);
+		width: 100%;
+		height: 100vh;
+		
+	}
+	.header-nav__btn{
+		display: initial;
+		order: 1;
+	}
+	.header-mobile .header__user{
+		display: none;
+	}
+	.header-mobile .header__nav{
+		display: initial;
+	}
+	.header-mobile .header-nav__btn{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+	.header-mobile .header__wrapper{
+		flex-direction: column;
+	}
+	.header-mobile .nav__link{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.header__user{
+		display: none;
+	}
+
+}
