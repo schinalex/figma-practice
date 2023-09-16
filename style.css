@@ -180,3 +180,41 @@ width: 539px;
     width: 519.785px;
     height: 573.31px;
 }
+
+.product-manager{
+    margin-top: 118px;
+    display: flex;
+    
+}
+.payment{
+    width: 430px;
+    display: flex;
+}
+
+.text{
+    margin-left: 102px;
+    width: 486px;
+    height: 427px;
+}
+.payment > img{
+    margin-right: 30px;
+}
+.product-manager > p{
+    margin: 0px;
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.product-manager  h2{
+    margin: 0px;
+    color: #2F281E;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.payment{
+    margin-top: 30px;
+}
