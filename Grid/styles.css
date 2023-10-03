@@ -2,18 +2,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 800px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(10, 1fr);
   gap: 2px;
   height: 500px;
   width: 500px;
   background-color: antiquewhite;
 }
 .grid div {
-  /* border: solid black; */
-  background-color: black;
+  background-color: rgb(153, 148, 148);
+}
+
+.menu {
+  display: inline-grid;
+  justify-content: space-between;
+  grid-template-columns: 40px 40px 40px;
+  border: 1px solid black;
+  height: 50px;
+  width: 498px;
+}
+
+.menu div {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  align-self: center;
 }
