@@ -5,6 +5,7 @@
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
@@ -21,6 +22,7 @@ a{
 	--dark-green:#214E41;
 	--white:#FFFFFF;
 	--light-green:#43806C;
+    --black: #222;
 }
 button{
 	border: none;
@@ -61,10 +63,10 @@ padding: 20px 0px 30px;
 	
 }
 .header__btn {
-font-style: normal;
-line-height: 20px;
-padding: 10px 15px;
-
+    font-style: normal;
+    line-height: 20px;
+    padding: 10px 15px;
+    border-radius: 6px;
 }
 .header__login{
 	display: flex;
@@ -81,3 +83,70 @@ line-height: 20px;
 
 
 
+/* Hero section */
+
+.hero {
+    background-image: url(./img/oameniganditori.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 90px) ;
+
+}
+.wrapper {
+    max-width: 1220px;
+    padding: 0px 10px;
+    margin: 0px auto;
+    position: relative;
+    height: 100%;
+    
+}
+.hero__info_descript {
+    width: 660px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    
+}
+.hero__info_descript h1{
+    font-size: 36px;
+    line-height: 46px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-green);
+    width: 516px;
+
+
+}
+.hero__info_descript p{
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+    color: var(--dark-green);
+    margin-top: 40px;
+    margin-bottom: 16px;
+    
+
+}
+.hero__info_descript input{
+    padding: 20px;
+    border-radius: 6px 0px 0px 6px;
+    background: #FFF;
+    width: 280px;
+    height: 60px;
+    border: none;
+    color: var(--black);
+}
+input ::placeholder{color: var(--black);}
+.hero__input::placeholder{
+    color: var(--black);
+}
+.hero__info_descript button{
+    width: 123px;
+    height: 60px;
+    border-radius: 0px 6px 6px 0px; 
+}
+
+.hero__form{
+    display: flex;
+    
+}
