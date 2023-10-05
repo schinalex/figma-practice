@@ -436,3 +436,52 @@ input ::placeholder {
 	margin-top: 10px;
 	margin-left: 253px;
 }
+
+
+.benefits{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    margin: 0 auto;
+}
+.left-side{
+    width: 705px;
+    background: #E3EEED;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 100px 0px 100px 100px;
+}
+.right-side{
+    width: 735px;
+    background: #214E41;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.benefit-brella{
+    color: #43806C;
+    font-size: 13px;
+    font-weight: 700;
+}
+.benefits h2{
+    color: #214E41;
+    font-size: 32px;
+   font-weight: 700;
+    line-height: 42px; /* 131.25% */
+}
+.benefit-list{
+    color: #43806C;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50px; /* 131.25% */
+}
+.benefit-right-text{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+    letter-spacing: 0.02px;
+    width: 430px;
+}
