@@ -1,0 +1,83 @@
+*,*::after,*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+:root{
+	--dark-green:#214E41;
+	--white:#FFFFFF;
+	--light-green:#43806C;
+}
+button{
+	border: none;
+	background-color: var(--light-green);
+	color: var(--white);
+	cursor: pointer;
+}
+/* Header start */
+
+.header__container{
+	max-width: 1352px;
+	padding: 0px 10px;
+	margin: 0 auto;
+}
+#header{
+padding: 20px 0px 30px;
+
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo {
+}
+.header__nav {
+	display: flex;
+	gap: 50px;
+}
+.header__nav li a {
+	color: var(--dark-green);
+	line-height: 20px; 
+}
+.header__user-int {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+	
+}
+.header__btn {
+font-style: normal;
+line-height: 20px;
+padding: 10px 15px;
+
+}
+.header__login{
+	display: flex;
+	align-items: center;
+}
+.header__login .header__lang {
+font-size: 13px;
+line-height: 20px;
+
+}
+.header__lang {
+	text-transform: uppercase;
+}
+
+
+
