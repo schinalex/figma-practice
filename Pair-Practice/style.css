@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    margin:0;
+    padding:0;
+}
+.proudly {
+    width:1440px;
+    height:347px;
+    margin: 0 auto 120px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.proudly > div {
+    width:1240px;    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.proudly h2{
+    width:313px;
+    height: 46px;
+    color: #214E41;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 110px 0;
+}
+.benefits{
+    width:1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.benefits .card {
+    width:355px;
+}
+.benefits h4 {
+    color: #43806C;
+    font-family: Raleway;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.benefits p{
+    color: #214E41;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top:15px;
+}
