@@ -99,3 +99,86 @@ body{
 .contact > aside > div{
     margin: 144px 0 0 120px;
 }
+footer{
+    background: #214E41;
+    color:white;    
+    margin: 0 auto;
+    width: 1440px;
+    height: 788px;
+    padding: 100px 120px 50px 120px;
+    font-family: 'Raleway', sans-serif;
+}
+.upper-section{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid white;
+    height:286px;
+
+}
+.upper-section h3{
+    margin:0;
+    line-height: 24px; 
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    width:87px;
+    
+}
+.join, .company {
+    display: flex;
+    flex-direction: column;
+}
+.join {
+    margin:0 115px 0 104px;
+    
+    font-size:13px;
+}
+.contact-form{
+    margin-left:370px;
+}
+.join a, .company a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    line-height:27px;
+    margin:15px 0 0 0;
+}
+#email{
+    height:51px;
+    width:302px;
+    background-color: #214E41;
+    border:1px solid white;
+    padding: 22px 0 6px 21px;
+}
+.contact-form form {
+    display: flex;
+    align-items: center;
+    margin-bottom:30px;
+}
+.contact-form form button {
+    height:51px;
+    background-color: transparent;
+    border:none;
+    padding:0;
+}
+#email::placeholder {
+    color: white;
+   
+}
+.contact-form h3{
+    width:111px;
+    font-size: 13px;
+    font-style: normal;
+    line-height: 24px; 
+    font-weight: 400;
+    letter-spacing: 0.02px;
+    text-transform: uppercase;
+}
+.contact-form p{
+    width: 345px;
+}
+.contact-form a{
+    margin:0 25px 0 0;
+
+}
