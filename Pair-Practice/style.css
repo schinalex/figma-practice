@@ -1,51 +1,54 @@
-*{
+* {
     box-sizing: border-box;
-    
 }
-body{
-    font-family: 'Roboto',sans-serif;
-    margin:0;
-    padding:0;
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .proudly {
-    width:1440px;
-    height:347px;
+    width: 1440px;
+    height: 347px;
     margin: 0 auto 120px auto;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
-.proudly > div {
-    width:1240px;    
+
+.proudly>div {
+    width: 1240px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
 }
-.proudly h2{
-    width:313px;
+
+.proudly h2 {
+    width: 313px;
     height: 46px;
-    color: #214E41;
+    color: #214e41;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     margin: 0 0 110px 0;
 }
-.benefits{
-    width:1200px;
+
+.benefits {
+    width: 1200px;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
 }
 
 .benefits .card {
-    width:355px;
+    width: 355px;
 }
 
 .benefits h4 {
-    color: #43806C;
+    color: #43806c;
     font-family: Raleway;
     font-size: 11px;
     font-weight: 400;
@@ -53,162 +56,175 @@ body{
     margin-top: 20px;
 }
 
-.benefits p{
-    color: #214E41;
+.benefits p {
+    color: #214e41;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
-.contact{
+.contact {
     display: flex;
     width: 1440px;
     margin: 120px auto 0 auto;
 }
 
-.contact > aside{
-    background-color:#E3EEED;
+.contact>aside {
+    background-color: #e3eeed;
     width: 100%;
 }
 
-.contact > aside >  div >p{
-    color: #214E41;
+.contact>aside>div>p {
+    color: #214e41;
     font-size: 36px;
     font-weight: 700;
     line-height: 46px;
     margin: 0;
 }
 
-.contact > aside > div > p:first-of-type{
+.contact>aside>div>p:first-of-type {
     width: 423px;
     margin-bottom: 46px;
 }
 
-.contact > aside > div > button{
+.contact>aside>div>button {
     width: 125px;
     height: 47px;
     border: none;
     border-radius: 6px;
-    background-color: #43806C;
-    color:white;
-    margin:60px 0 0 0;
+    background-color: #43806c;
+    color: white;
+    margin: 60px 0 0 0;
 }
 
-.contact > aside > div{
+.contact>aside>div {
     margin: 144px 0 0 120px;
 }
-footer{
-    background: #214E41;
-    color:white;    
+
+footer {
+    background: #214e41;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-content {
     margin: 0 auto;
     width: 1440px;
     height: 788px;
     padding: 100px 120px 50px 120px;
-    font-family: 'Raleway', sans-serif;
 }
-.upper-section{
+
+.upper-section {
     display: flex;
     align-items: flex-start;
     border-bottom: 1px solid white;
-    height:286px;
-
+    height: 286px;
 }
-.upper-section h3{
-    margin:0;
-    line-height: 24px; 
+
+.upper-section h3 {
+    margin: 0;
+    line-height: 24px;
     letter-spacing: 0.02px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    width:87px;
-    
+    width: 87px;
 }
-.join, .company {
+
+.join,
+.company {
     display: flex;
     flex-direction: column;
 }
+
 .join {
-    margin:0 115px 0 104px;
-    
-    font-size:13px;
+    margin: 0 115px 0 104px;
+
+    font-size: 13px;
 }
-.contact-form{
-    margin-left:370px;
+
+.contact-form {
+    margin-left: 370px;
 }
-.join a, .company a{
-    text-decoration:none;
-    color:white;
-    font-size:16px;
-    line-height:27px;
-    margin:15px 0 0 0;
+
+.join a,
+.company a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 15px 0 0 0;
 }
-#email{
-    height:51px;
-    width:302px;
-    background-color: #214E41;
-    border:1px solid white;
+
+#email {
+    height: 51px;
+    width: 302px;
+    background-color: #214e41;
+    border: 1px solid white;
     padding: 22px 0 6px 21px;
 }
+
 .contact-form form {
     display: flex;
     align-items: center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
+
 .contact-form form button {
-    height:51px;
+    height: 51px;
     background-color: transparent;
-    border:none;
-    padding:0;
+    border: none;
+    padding: 0;
 }
+
 #email::placeholder {
     color: white;
-   
 }
-.contact-form h3{
-    width:111px;
+
+.contact-form h3 {
+    width: 111px;
     font-size: 13px;
     font-style: normal;
-    line-height: 24px; 
+    line-height: 24px;
     font-weight: 400;
     letter-spacing: 0.02px;
     text-transform: uppercase;
 }
-.contact-form p{
+
+.contact-form p {
     width: 345px;
 }
-.contact-form a{
-    margin:0 25px 0 0;
 
+.contact-form a {
+    margin: 0 25px 0 0;
 }
 
-.lower-section p{
+.lower-section p {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.02px;
     margin: 0;
 }
 
-.lower-section{
+.lower-section {
     margin-top: 74px;
 }
 
-.lower-section > div > p:first-child{
+.lower-section>div>p:first-child {
     margin-bottom: 20px;
 }
 
-.lower-section > div > p:nth-child(2){
+.lower-section>div>p:nth-child(2) {
     margin-bottom: 24px;
 }
 
-.lower-section > div{
+.lower-section>div {
     margin-bottom: 90px;
 }
 
-
-
-.copyright{
+.copyright {
     display: flex;
     justify-content: space-between;
 }
