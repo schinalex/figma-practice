@@ -19,6 +19,7 @@ a{
 	color: inherit;
 }
 :root{
+	--light-grey: #757575;
 	--dark-green:#214E41;
 	--white:#FFFFFF;
 	--light-green:#43806C;
@@ -188,4 +189,184 @@ input ::placeholder{color: var(--black);}
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: inherit;
+}
+/* WHY BRELLA? */
+.statistic_wrapper{
+	display: flex;
+	align-items: center;
+	gap: 60px;
+}
+
+
+.rating_statistics {
+}
+.wrapper {
+
+}
+.rating_statistics_Left {
+	width: 510px;
+	height: 358px;
+	color: var(--dark-green);
+	padding-top: 10px;
+	padding-left: 60px;
+	padding-right: 32px;
+	padding-bottom: 33px;
+}
+.rating_statistics_Left h2{
+	margin-top: 20px;
+	margin-bottom: 34px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 31px;
+	font-weight: 700;
+	line-height: 46px; /* 127.778% */
+}
+.rating_statistics_Left p{
+	margin-bottom: 24px;
+	color: var(--light-grey);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.02px;
+}
+.rating_statistics_Left span{
+	color: var(--light-green);
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.05px;
+	text-transform: uppercase;
+}
+.rating_statistics_Left button{
+	text-align: center;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px; /* 100% */
+	letter-spacing: 0.02px;
+	color: var(--dark-green);
+	background-color: var(--white);
+	border-bottom: solid var(--dark-green) 1px;
+	width: 107px;
+}
+.statistics__container {
+
+}
+.rating_statistics_Right .hr{
+	width: 95%;
+	height: 2px;
+	background-color: #F0A446;
+	position: absolute;
+	transform: translateX(10px);
+	
+}
+.rating_statistics_Right {
+	margin-top: 35px;
+	padding-top: 35px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 510px;
+	height: 364px;
+	padding-bottom: 34px;
+
+}
+.right__info {
+	width: 255px;
+	height: 186px;
+	color: var(--dark-green);
+	margin-left: 10px;
+	flex-direction: column;
+}
+.span_2{
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0.02px;
+	text-decoration-line: underline;
+}
+.no_margin_paragraf{
+	width: 189px;
+}
+.left_buttom_text_p{
+
+}
+.right__info p{
+	margin-right: 10px;
+	
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0.02px;
+}
+.right__info div{
+	font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 90px;
+	margin-bottom: 30px;
+}
+.right__statisctics {
+	display: flex;
+	gap: 40px;
+	color: var(--dark-green);
+	
+	
+	
+}
+.Bar_Chart_1 span{
+	color: #214E41;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px; /* 169.231% */
+}
+.Bar_Chart_2 span{
+	color: #214E41;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px; /* 169.231% */
+}
+.Bar_Chart_1 {
+	align-self: flex-end;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+.Chart__deduct {
+	width: 78px;
+	height: 150px;
+	margin-bottom: 20px;
+	background-color: var(--light-green);
+}
+.Bar_Chart_2 {
+	align-self: flex-end;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+.Bar_Chart_1 p{
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.Bar_Chart_2 p{
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.Chart__Annual {
+	width: 78px;
+	height: 300px;
+	background-color: var(--light-green);
+	margin-bottom: 20px;
+}
+.Author_data{
+	color: var(--light-grey);
+	text-align: center;
+	font-family: Raleway;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px; /* 169.231% */
+	margin-top: 10px;
+	margin-left: 253px;
 }
