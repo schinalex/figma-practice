@@ -658,3 +658,223 @@ text-underline-offset: 20px;
 height: 500px;
 
 }
+.benefits {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  margin: 0 auto;
+}
+.left-side {
+  width: 705px;
+  background: #e3eeed;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 100px 0px 100px 100px;
+}
+.right-side {
+  width: 735px;
+  background: #214e41;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.benefit-brella {
+  color: #43806c;
+  font-size: 13px;
+  font-weight: 700;
+}
+.benefits h2 {
+  color: #214e41;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px; /* 131.25% */
+}
+.benefit-list {
+  color: #43806c;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 50px; /* 131.25% */
+}
+.benefit-right-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+  letter-spacing: 0.02px;
+  width: 430px;
+}
+.people-img {
+  width: 560px;
+  height: 298px;
+  flex-shrink: 0;
+}
+.health {
+  width: 1440px;
+  margin: 0 auto;
+}
+.predict {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.predict-h {
+  color: #214e41;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  width: 556px;
+}
+.predict-p2 {
+  color: #757575;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.02px;
+  width: 480px;
+}
+.predict-p1 {
+  color: #43806c;
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 153.846% */
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+}
+
+.orange {
+  color: #f0a446;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px; /* 130% */
+}
+.four {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.four p {
+  color: #214e41;
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 169.231% */
+  letter-spacing: 0.02px;
+  width: 240px;
+}
+.phone {
+  display: flex;
+  margin-top: 100px;
+  width: 1440px;
+  margin: 100px auto 0 auto;
+  padding-left: 100px;
+}
+.phone-img {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.better {
+  color: #43806c;
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px; /* 153.846% */
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+}
+.plan {
+  color: #214e41;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  width: 483px;
+}
+.team {
+  color: #757575;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.02px;
+  width: 480px;
+}
+.play-learn {
+  color: #214e41;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+  letter-spacing: 0.02px;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+.phone-text {
+  width: 50%;
+  padding-top: 50px;
+}
+.phone-gif {
+  width: 296px;
+  height: 500px;
+}
+
+.img-administration {
+  display: block;
+  width: 1440px;
+  height: 522px;
+  background-image: url("img/girl.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+}
+
+.container-emloyer {
+  padding-top: 150px;
+  padding-left: 150px;
+}
+
+.for-employers {
+  color: #43806c;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px; /* 153.846% */
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+}
+
+.employer-title {
+  color: #214e41;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px; /* 127.778% */
+  width: 391px;
+}
+
+.employer-text {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.02px;
+  width: 491px;
+}
