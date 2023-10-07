@@ -182,3 +182,33 @@ footer{
     margin:0 25px 0 0;
 
 }
+
+.lower-section p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    margin: 0;
+}
+
+.lower-section{
+    margin-top: 74px;
+}
+
+.lower-section > div > p:first-child{
+    margin-bottom: 20px;
+}
+
+.lower-section > div > p:nth-child(2){
+    margin-bottom: 24px;
+}
+
+.lower-section > div{
+    margin-bottom: 90px;
+}
+
+
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
