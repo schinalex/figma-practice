@@ -39,9 +39,11 @@ body{
     justify-content: space-around;
     margin: 0 auto;
 }
+
 .benefits .card {
     width:355px;
 }
+
 .benefits h4 {
     color: #43806C;
     font-family: Raleway;
@@ -50,6 +52,7 @@ body{
     text-transform: uppercase;
     margin-top: 20px;
 }
+
 .benefits p{
     color: #214E41;
     font-family: Roboto;
@@ -57,4 +60,42 @@ body{
     font-weight: 700;
     line-height: 26px;
     margin-top:15px;
+}
+
+.contact{
+    display: flex;
+    width: 1440px;
+    margin: 120px auto 0 auto;
+}
+
+.contact > aside{
+    background-color:#E3EEED;
+    width: 100%;
+}
+
+.contact > aside >  div >p{
+    color: #214E41;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 0;
+}
+
+.contact > aside > div > p:first-of-type{
+    width: 423px;
+    margin-bottom: 46px;
+}
+
+.contact > aside > div > button{
+    width: 125px;
+    height: 47px;
+    border: none;
+    border-radius: 6px;
+    background-color: #43806C;
+    color:white;
+    margin:60px 0 0 0;
+}
+
+.contact > aside > div{
+    margin: 144px 0 0 120px;
 }
