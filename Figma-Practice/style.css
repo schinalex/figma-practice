@@ -69,14 +69,19 @@ button {
     margin:0 10px 0 0;
 }
 img[alt="people"]{
-    width: 605px;
-    height: 496px;
+    width: 100%;
+
 }
-.design_thinking{
-    display: flex;
+.design-img{
+    max-width: 605px;
+    min-width: 424px;
 }
+
  .design_thinking > aside{
-   width: 518px;
+    width: 458px;
+    min-height: 450px;
+  
+
 }
 .design_thinking h1{
     font-size: 2.75rem;
@@ -86,7 +91,7 @@ img[alt="people"]{
 .design_thinking p{
     color:#544837 ;
     font-size: 1.125rem;
-    width: 458px;
+    
 }
 .design_thinking  a{
     font-size: 1rem;
@@ -106,11 +111,15 @@ img[alt="people"]{
 }
 section{
     margin-top:  30px; 
-    height: 574px;  
+    min-height: 574px;  
 }
 .row{
     display:flex;
     justify-content: space-around;
+    
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 .card{
     width: 240px;
@@ -152,12 +161,13 @@ width: 539px;
 
  .design_professionals {
      display: flex;
-     justify-content: space-between;
+     
  }
 
  .design_professionals aside {
     width: 486px;
-    height: 531px;
+  
+    
  }
 
  .design_professionals p{
