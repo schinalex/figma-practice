@@ -4,12 +4,13 @@
 
 .container {
     margin: 0 auto;
-    width: 1126px;
+    max-width: 1126px;
 }
 
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 78px;
     margin-top: 20px;
 }
@@ -18,7 +19,6 @@
     display: flex;
     font-size: 0.875rem;
     align-items: center;
-    margin: 0 0 0 320px;
     color: #2F281E;
 }
 
