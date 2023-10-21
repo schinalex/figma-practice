@@ -39,6 +39,8 @@
 }
 .top{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 @media screen and (max-width: 900px) {
  .menu{
@@ -53,7 +55,8 @@
  }
  .top{
     flex-direction: column;
-
+    justify-content: left;
+    width: auto;
  }
  .header-nav{
     flex-direction: column;
