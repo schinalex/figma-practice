@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 78px;
+    min-height: 78px;
     margin-top: 20px;
 }
 
@@ -21,7 +21,51 @@
     align-items: center;
     color: #2F281E;
 }
+.icon-nav{
+    cursor: pointer;
+    background-color: #F90;
+    display: none;
+    padding: 5px 10px 5px 10px;
+    /* position: absolute;
+    top: 15px;
+    right: 15px; */
+    
+}
+.icon-nav i{
+    font-size: 42px;
+}
+.menu a{
 
+}
+.top{
+    display: flex;
+}
+@media screen and (max-width: 900px) {
+ .menu{
+    flex-direction: column;
+    display: flex;
+ } 
+ .icon-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .top{
+    flex-direction: column;
+
+ }
+ .header-nav{
+    flex-direction: column;
+    display: none;
+  }
+  .header{
+    align-items: start;
+  }
+}
+.visible{
+    display: flex;
+}
 img[alt="logo"]{
     width: 31.168px;
     height: 32px;
