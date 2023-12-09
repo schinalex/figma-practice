@@ -1,0 +1,1 @@
+(()=>{"use strict";["a","b","c"].forEach((o=>{console.log(o)})),console.log("hello"),console.log("world")})();
