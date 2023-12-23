@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import React from 'react';
+import { useState  } from 'react'
 import ReactDOM from 'react-dom/client'
 import { FaRegCircle } from "react-icons/fa";
 import { HiXMark } from "react-icons/hi2";
@@ -88,9 +89,10 @@ function TicTacToe() {
     <main className="main-container">
       
       <h1>TIC TAC TOE</h1>
-      <Button  onClick={play} variant="contained">Play</Button>
-    
-      <div> <FaRegCircle/> = {score.x} ||  < HiXMark/> = {score.o}  </div>
+      { 
+      !playing && <Button   onClick={play} variant="contained">Play</Button>
+      }
+      <div> < HiXMark/> = {score.x} ||<FaRegCircle/>   = {score.o}  </div>
       <div className="ttt-container">
         <div className="grid-container">
           {grid.map((row, y) => row.map((cell, x) => (
